@@ -1,8 +1,15 @@
 const express = require('express');
 const path = require('path');
-// Helper method for generating unique ids
-const uuid = require('./helpers/uuid');
-const reviews = require('./db/reviews');
+mysql = require(mysql2)
+
+mysql.createConnection(
+  hostname
+  password
+)
+
+mysql.query('movide_db. movielist')
+express queried data to /api/movies
+
 
 const PORT = 3001;
 
